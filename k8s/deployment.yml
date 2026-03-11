@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-login
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: node-login
+  template:
+    metadata:
+      labels:
+        app: node-login
+    spec:
+      containers:
+      - name: node-login
+        image: yourdockerhubusername/node-login-app:v1
+        ports:
+        - containerPort: 3000
