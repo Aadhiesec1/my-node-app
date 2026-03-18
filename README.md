@@ -1,4 +1,4 @@
-# CI/CD DevOps Project (AWS + Kubernetes + Jenkins)
+# CI/CD DevOps Project (Ansible + Docker + Jenkins + Kubernetes)
 
 A production-style DevOps pipeline implementing CI/CD, infrastructure automation, containerization, and monitoring across multiple virtual machines.
 
